@@ -70,6 +70,12 @@ const customers = [
     email: 'balazs@orban.com',
     image_url: '/customers/balazs-orban.png',
   },
+  {
+    id: '5B8B8B8B-5B8B-8B8B-8B8B-8B8B8B8B8B8B',
+    name: 'John Doe',
+    email: 'john@doe.com',
+    image_url: '/customers/john-doe.png',
+  },
 ];
 
 const invoices = [
@@ -161,6 +167,12 @@ const invoices = [
     customer_id: customers[2].id,
     amount: 1000,
     status: 'paid',
+    date: '2022-06-05',
+  },
+  {
+    customer_id: customers[3].id,
+    amount: 1000,
+    status: 'pending',
     date: '2022-06-05',
   },
 ];
